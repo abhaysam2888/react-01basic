@@ -1,8 +1,12 @@
-
-
-function App() {
+import Chai from "./Chai"
+// uppercase the imported and exported function name
+function App() { 
   return (
-    <h1>Chai aur react with vite || Abhay kumar</h1>
+    <>
+    <Chai />
+    <h1>Hello i am abhay</h1>
+    <p>para</p>
+    </>
   )
 }
 
